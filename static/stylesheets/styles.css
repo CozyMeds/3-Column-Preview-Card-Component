@@ -26,7 +26,7 @@
     /*_* Paragraphs *_*/
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     /*_* Background, Headings, Buttons *_*/
-    --very-light-gray: (background, headings, buttons): hsl(0, 0%, 95%);
+    --very-light-gray: hsl(0, 0%, 95%);
 }
 
 /*_*_*_*_* Body Styling *_*_*_*_*/
@@ -42,7 +42,84 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    width: 920px;
-    height: 500px;
-    border: 1px solid red;
+    width: 57.5rem;
+    height: 31.25rem;
+    border-radius: 0.5rem;
+}
+
+/*_*_*_*_* All Box Styling *_*_*_*_*/
+.container > .box > .text {
+    color: var(--transparent-white);
+
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.563em;
+    font-size: 0.938em;
+
+    margin: 1.563rem 0 0 2.969rem;
+    width: 13.25rem;
+}
+
+.container > .box > .title {
+    color: var(--very-light-gray);
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2.5em;
+
+    margin: 2.188rem 0 0 3rem;
+}
+
+.container > .box > .car_img {
+    height: 2.5rem;
+
+    margin: 3rem 0 0 3rem;
+}
+
+.container > .box > .butt {
+    width: 9.125rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 1.563rem;
+
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.563em;
+    font-size: 0.938em;
+
+    margin: 5.188rem 0 0 3rem;
+}
+
+.container > .box > .butt:hover {
+    background-color: transparent;
+    border: 2px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+}
+
+/*_*_*_*_* Orange / Left Box Styling *_*_*_*_*/
+.container > .orange {
+    background-color: var(--bright-orange);
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.container > .orange > .butt {
+    color: var(--bright-orange);
+}
+
+/*_*_*_*_* Dark-Cyan / Middle Box Styling *_*_*_*_*/
+.container > .dark_cyan {
+    background-color: var(--dark-cyan);
+}
+
+.container > .dark_cyan > .butt {
+    color: var(--dark-cyan);
+}
+
+/*_*_*_*_* Very-Dark-Cyan / Right Box Styling *_*_*_*_*/
+.container > .very_dark_cyan {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.container > .very_dark_cyan > .butt {
+    color: var(--very-dark-cyan);
 }
