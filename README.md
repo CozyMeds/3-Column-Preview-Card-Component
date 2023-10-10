@@ -21,8 +21,8 @@ This is a solution to the [3 Column Card Component](https://www.frontendmentor.i
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-Ng9B4IiTvV)
-- Live Site URL: [Github Pages](https://cozymeds.github.io/Product-preview-card-component/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-96vUjY-VdP)
+- Live Site URL: [Github Pages](https://cozymeds.github.io/3-Column-Preview-Card-Component/)
 
 ## My process
 
