@@ -123,3 +123,46 @@ body {
 .container > .very_dark_cyan > .butt {
     color: var(--very-dark-cyan);
 }
+
+/*_*_*_*_* Media Queries *_*_*_*_*/
+
+/*_*_* Mobile Phones *_*_*/
+@media screen and (max-width: 60.625rem) {
+    body {
+        align-items: flex-start;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        width: 20.438rem;
+    }
+
+    .container > .box {
+        height: 27.625rem;
+    }
+
+    .container > .box > .text {
+        margin: 1.563rem 0 0 3.031rem;
+    }
+    
+    .container > .box > .title {    
+        margin: 2.188rem 0 0 3.063rem;
+    }
+    
+    .container > .box > .car_img {
+        margin: 3rem 0 0 3.063rem;
+    }
+    
+    .container > .box > .butt {    
+        margin: 1.563rem 0 0 3.063rem;
+    }
+
+    .container > .orange {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    /*_*_*_*_* Very-Dark-Cyan / Right Box Styling *_*_*_*_*/
+    .container > .very_dark_cyan {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+} 

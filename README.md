@@ -17,7 +17,7 @@ This is a solution to the [3 Column Card Component](https://www.frontendmentor.i
 
 ### Screenshot
 
-![](./static/images/FrontEnd.png)
+![](./static/images/screenshot.png)
 
 ### Links
 
